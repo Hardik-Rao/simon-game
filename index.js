@@ -36,7 +36,7 @@ $("body").addClass("game-over");
 $("#level-title").text("Game over,press any key to restart");
 setTimeout(function(){
  $("body").removeClass("game-over");
-},1000)
+},100)
 startOver();
 }
 }
